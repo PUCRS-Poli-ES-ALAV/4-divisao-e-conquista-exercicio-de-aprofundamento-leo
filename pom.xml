@@ -19,21 +19,15 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.4.0</version>
-      <scope>test</scope>
-    </dependency>
-    
-    <dependency>
-      <groupId>br.pucrs</groupId>
-      <artifactId>util</artifactId>
-      <version>1.0</version>
-      <scope>system</scope>
-      <systemPath>${project.basedir}/../../../MavenRep/utiltimecounter.jar</systemPath>
-   </dependency>
-    
+
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>6.0.0-M2</version>
+    <scope>test</scope>
+</dependency>
+
   </dependencies>
 
   <build>
